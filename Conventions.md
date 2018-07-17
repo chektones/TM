@@ -165,56 +165,64 @@ A microflow consists of a workflow decision type diagram taking care of the flow
 
 An element that makes a choice based on a condition and follows (exactly) one of the outgoing sequence flows. This can be based on a true/false outcome or a type selection based on an enumeration. By default the label of an exclusive split is empty. To improve readability of a microflow it is required to add a short but descriptive label. Best practice related to the actual expression of the exclusive split is to keep the amount of expressions for one exclusive split to a minimum - preferably only 1 per split.
  
-Boolean split example
+<img src="booleansplit.png" alt=""><br>
+<i>Boolean split example</i>
  
-Type split example
+<img src="typesplit.png"><br>
+<i>Type split example</i>
 
-Annotations
+<h3>Annotations</h3>
 
 A flow in a microflow for more complex functionality can become difficult to understand. For example the input parameters expected by the microflow might not be named intuitively enough for a developer to understand. Another example is some business logic might not translate into logic programmatic flows and could lead to a different developer not understanding why something is developed in a specific way. To resolve these kinds of problems the use of annotations can be very helpful. An annotiation is a way of adding comments to a microflow. Annotations can be specified microflow wide or connected to specific activities/elements in a microflow by dragging from any of the connector points of the annotation element to the related microflow element.
 
-Commit descriptions
+<h2>Commit descriptions</h3>
 
 All changes made to the TM Mendix model are committed to the Mendix teamserver svn. Most of the time commits are related to stories that are part of a sprint. Usually one story consists of several commits. To make it easier to identify individual changes a convention for commit messages is required.
+
 The syntax for a commit message is as follows:
-304 – Some descriptive message 
+
+<code>304 – Some descriptive message</code>
+
 So the number is the actual story number that is being worked on. As a ground rule every change (commit) to the model or project filesystem should be related to a story number. This is important for audit purposes whereas every change to the application needs to have a registered assignment (story, hotfix etc, feedback). After the story number a space followed by a dash followed by a space is added. After the dash a descriptive message (starting with a capital letter) is included for a developer to be able to identify the changes made in that specific commit. There’s no sense in including just the story description unless its the complete story. For small changes including the actual technical change can be helpful. For larger stories including the functional description is a good practice. Some examples:
-TM0127 - Added the ability to add a collateral overview confirmation template + generate report button in collateral overview, enabled for FAM and Admin.
 
+<code>TM0127 - Added the ability to add a collateral overview confirmation template + generate report button in collateral overview, enabled for FAM and Admin</code>
 
-272 - Added DealTypeLabelEN attribute to be able to sort properly (Option tehnically is FX Option captioned)
+<code>272 - Added DealTypeLabelEN attribute to be able to sort properly (Option tehnically is FX Option captioned)</code>
 
+<code>490 – HOTFIX – Added module role DealView to Documents tab in all deal forms</code>
 
-490 – HOTFIX – Added module role DealView to Documents tab in all deal forms
-
-SVN release strategy
+<h2>SVN release strategy</h2>
 There are a few different strategies possible on how to use SVN combined with a release structure. The strategy (to be) used for the TM is described in the following chapters.
 
-Main line
+<h3>Main line</h3>
 
 The TM is developed in an agile way using sprints. A sprint resembles a new release or version of the TM. All development is done on the mainline. Only after a sprint is finished, fully tested and approved for production will a specific release branch be created and will the release be tagged with the new version. Any changes made to that tagged release (ie hotfixes) are merged back into the mainline.
 
-Release versioning
+<h3>Release versioning</h3>
 
 Every sprint that is worked through for the TM is deployed to production as a release. A release is versioned and this reflects in the svn using tagging. Tagging in Mendix is done when creating a versioned deployment locally or in the cloud.
-The release version consists of 3 numeric characters separated by periods like 2.3.0 where in this example:
-•	2 resembles the major version
-•	3 resembles the minor version
-•	0 resembles the patch version
+The release version consists of 3 numeric characters separated by periods like 2.3.0 where in this example:<br>
+
+•	2 resembles the major version<br>
+•	3 resembles the minor version<br>
+•	0 resembles the patch version<br>
 
 Major versions are upped when major changes are made to the application which are major to the users of the platform. Minor versions are upped with regular releases. The patch version is only upped when hotfixes are applied to releases already deployed to production.
-Branch naming convention
+
+<h3>Branch naming convention</h3>
+
 Every sprint is deployed to production as a release. Every release is created as a new branch on svn. The syntax for a new release is as follows:
-TM_MX6_10_10_R2_3_0
 
+<code>TM_MX6_10_10_R2_3_0</code>
 
+<h2>Release notes convention</h2>
 
-Release notes convention
+The release notes for issues need the following elements:<br>
 
-The release notes for issues need the following elements:
--	Description of the issue (in past tense, try to avoid negative wording)
--	If necessary, description of what caused this issue
--	Mentioning that the issue is solved (present tense)
+•	Description of the issue (in past tense, try to avoid negative wording)<br>
+•	If necessary, description of what caused this issue<br>
+•	Mentioning that the issue is solved (present tense)<br>
+
 The release notes for features should describe the new functionality.
 
 
