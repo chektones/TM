@@ -86,12 +86,14 @@ Every object that is visible in a form and that is retrieved by Xpath should be 
 The rule is that a user can only see data from companies that its associated with (via association Account_Party). 
 
 Example:
- 
+<img src="security1.png">
+
 In the above example the Dealer is accessible via form, via the Xpath Dealer_Party.
 This Xpath can be removed on the back end, enabling an end-user to see all the Dealer-object that is in the TM-database. 
 
 Therefore an Xpath should be added in the object itself for all user roles except for FAM and Administrator:
- 
+
+<img src="security2.png">
 This Xpath makes sure that even though an Xpath is not set on the form (or gets removed by an end user) the end user will only see the Dealer-records that are linked to Companies that this person has access to.
 </li>
 </ul>
