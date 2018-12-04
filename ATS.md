@@ -6,7 +6,7 @@ Keep in mind that a change in a certain element does not immediately means it ne
 
 <h2>Ribbon</h2>
 •	FAM<br>
-  - Company and user setup
+  - Company and user setup<br>
 •	Administration<br>
 •	Planning<br>
 •	Dashboard<br>
@@ -20,7 +20,20 @@ Keep in mind that a change in a certain element does not immediately means it ne
 •	Analyze<br>
 •	Documents<br>
 
-<h2>Anonymous</h2>
+<h2>Pages</h2>
+•	Anonymous: any change<br>
+•	CompanyUserSetup (Company and user setup)<br>
+- Edit-button<br>
+•	CompanyUserSetup (Verification)<br>
+- Verify all-button<br>
+•	CompanyUserEdit<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
+•	Anonymous: any change<br>
 
 Modules should be treated like standalone replaceable services if possible, for example, the email module should function as a standalone email system as much as possible, replaceable by a different email system. Module names should have camel case names that identify the responsibility of the module.
 
