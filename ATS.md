@@ -1,8 +1,26 @@
-<h1>Conventions</h1>
+<h1>ATS</h1>
 
-While developing a Mendix application several different naming conventions should be used to improve readability of flows, make it easier to logically find re-usable functions (ie microflows) and speed up analysis of bugs.
+While making changes to the TradeManager please take account of the fact that some changes might break certain ATS-cases. In this document all the pages and buttons are listed that are used by ATS. When changing a certain element, either change ATS or mention the specific changed element in the ATS-section in the story.
 
-<h2>Modules</h2>
+Keep in mind that a change in a certain element does not immediately means it needs to be changed in ATS. Most elements that ATS uses are based on the 'name'-element. For instance, changing the name 'Approve' to something else in Trade Manager/Interest rate fixing/Unverified does not matter. However, deleting the button and create a new button named 'Approve' will cause issues for ATS (assuming you do not rename the 'name'-element). Exceptions are the 'Search'-buttons and the menu-bar: these do not have a name-element, meaning ATS has to rely on the actual name of the menu-item. For instance, changing the menu-item name from 'Trade Manager' to 'Trade manager' will cause issues for ATS. 
+
+<h2>Ribbon</h2>
+•	FAM<br>
+  - Company and user setup
+•	Administration<br>
+•	Planning<br>
+•	Dashboard<br>
+•	Trade Manager<br>
+•	My Companies<br>
+•	Valuation<br>
+•	Collateral<br>
+•	Cash<br>
+•	Risk<br>
+•	Accounting<br>
+•	Analyze<br>
+•	Documents<br>
+
+<h2>Anonymous</h2>
 
 Modules should be treated like standalone replaceable services if possible, for example, the email module should function as a standalone email system as much as possible, replaceable by a different email system. Module names should have camel case names that identify the responsibility of the module.
 
