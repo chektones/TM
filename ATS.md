@@ -255,6 +255,7 @@ Keep in mind that a change in a certain element does not immediately means it ne
       <li>Rec CCY-field</li>
       <li>Pay float type-field</li>
       <li>Rec float type-field</li>
+      <li>Counterparty-field</li>
     </ul>
   </li>
     <li>CCIRS_New (Tabs: Pay/Receive legs)
