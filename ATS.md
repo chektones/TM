@@ -230,5 +230,85 @@ Keep in mind that a change in a certain element does not immediately means it ne
 </ul>
 
 
+<h3>Deals overview</h3>
+<ul>
+  <li>Deals_Overview (Tab: Deal)</li>
+  <li>SN_Deals (Tab: Input)
+    <ul>
+      <li>New-button</li>
+    </ul>
+  </li>
+  <li>SelectDealType
+    <ul>
+      <li>Company-field</li>
+      <li>Deal type-field</li>
+    </ul>
+  </li>
+  <li>CCIRS_New
+    <ul>
+      <li>Trade date-field</li>
+      <li>Effective date-field</li>
+      <li>Maturity date-field</li>
+      <li>Pay notional-field</li>
+      <li>Rec notional-field</li>
+      <li>Pay CCY-field</li>
+      <li>Rec CCY-field</li>
+      <li>Pay float type-field</li>
+      <li>Rec float type-field</li>
+    </ul>
+  </li>
+    <li>CCIRS_New (Tabs: Pay/Receive legs)
+    <ul>
+      <li>Payments in-field</li>
+      <li>Accrual method-field</li>
+      <li>Business day convention-field</li>
+      <li>Payment frequency-field</li>
+      <li>Reset frequency-field</li>
+      <li>Reset type-field</li>
+      <li>Initial floating rate-field</li>
+      <li>Floating rate spread-field</li>
+      <li>Compounding-field</li>
+      <li>Floating rate benchmark-field</li>
+      <li>Date of first reset date-field</li>
+      <li>Save and submit-button</li>
+    </ul>
+  </li>
+  <li>CCIRS_New (Tabs: Valuation)
+    <ul>
+      <li>Pay discount curve-field</li>
+      <li>Pay forward curve-field</li>
+      <li>Receive discount curve-field</li>
+      <li>Receive forward curve-field</li>
+    </ul>
+  </li>
+  <li>CCIRS_New (Tabs: Schedule)
+    <ul>
+      <li>Generate schedule-button</li>
+    </ul>
+  </li>
+  <li>CCIRS_New (Tab: Fees)</li>
+  <li>CCIRS_New (Tab: Cashflow overview)
+    <ul>
+      <li>Calculate cashflows-button</li>
+    </ul>
+  </li>
+  <li>CCIRS_New (Tab: Other details)
+    <ul>
+      <li>Fixing definition-field</li>
+      <li>Fallback-definition-field</li>
+    </ul>
+  </li>
+  <li>SN_Deals (Tab: Submitted)
+    <ul>
+      <li>Verify deal-button</li>
+    </ul>
+  </li>
+  </li>
+  <li>SN_Deals (Tab: Unverified)
+    <ul>
+      <li>Verify deal-button</li>
+    </ul>
+  </li>
+</ul>
 
 
