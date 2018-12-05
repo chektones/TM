@@ -5,23 +5,122 @@ While making changes to the TradeManager please take account of the fact that so
 Keep in mind that a change in a certain element does not immediately means it needs to be changed in ATS. Most elements that ATS uses are based on the 'name'-element. For instance, changing the name 'Approve' to something else in Trade Manager/Interest rate fixing/Unverified does not matter. However, deleting the button and create a new button named 'Approve' will cause issues for ATS (assuming you do not rename the 'name'-element). Exceptions are the 'Search'-buttons and the menu-bar: these do not have a name-element, meaning ATS has to rely on the actual name of the menu-item. For instance, changing the menu-item name from 'Trade Manager' to 'Trade manager' will cause issues for ATS. 
 
 <h2>Ribbon</h2>
-•	FAM<br>
-  - Company and user setup<br>
-•	Administration<br>
-•	Planning<br>
-•	Dashboard<br>
-•	Trade Manager<br>
-•	My Companies<br>
-•	Valuation<br>
-•	Collateral<br>
-•	Cash<br>
-•	Risk<br>
-•	Accounting<br>
-•	Analyze<br>
-•	Documents<br>
+
+<h2>FAM Company and user setup</h2>
+<ul>
+  <li>FAM
+    <ul>
+      <li>Company and user setup</li>
+    </ul>
+  </li>
+  <li>Administration</li>
+  <li>Planning</li>
+  <li>Dashboard</li>
+  <li>Trade Manager</li>
+  <li>My Companies</li>
+  <li>Valuation</li>
+  <li>Collateral</li>
+  <li>Cash</li>
+  <li>Risk</li>
+  <li>Accounting</li>
+  <li>Analyze</li>
+  <li>Documents</li>
+</ul>
 
 <h2>Pages</h2>
-•	Anonymous: any change<br>
+<ul>
+  <li>Anonymous
+    <ul>
+      <li>Any change</li>
+    </ul>
+  </li>
+  <li>CompanyUserSetup (Tab: Company and user setup)
+    <ul>
+      <li>Edit-button</li>
+    </ul>
+  </li>
+  <li>CompanyUserSetup (Tab: Verification)
+    <ul>
+      <li>Verify all-button</li>
+    </ul>
+  </li>
+  <li>CompanyUserEdit (Tab: Companies)
+    <ul>
+      <li>New-button</li>
+      <li>Save and submit-button</li>
+    </ul>
+  </li>
+  <li>CompanyUserEdit (Tab: Users)
+    <ul>
+      <li>New-button</li>
+    </ul>
+  </li>
+  <li>Account_New
+    <ul>
+      <li>Full name-field</li>
+      <li>User name-field</li>
+      <li>View type-field</li>
+      <li>Language-field</li>
+      <li>Save-button</li>
+    </ul>
+  </li>
+  <li>Company_New (Tab: General)
+    <ul>
+      <li>Legal name-field</li>
+      <li>Short name-field</li>
+      <li>Address1-field</li>
+      <li>Address2-field</li>
+      <li>Zip code-field</li>
+      <li>City-field</li>
+      <li>LEI-field</li>
+      <li>Save-button</li>
+    </ul>
+  </li>
+  <li>Company_New (Tab: Deal types)
+    <ul>
+      <li>Add-button</li>
+    </ul>
+  </li>
+  </li>
+  <li>Company_New (Tab: Curve group)
+    <ul>
+      <li>New button</li>
+    </ul>
+  </li>
+  </li>
+  <li>Company_New (Tab: Accounts)
+    <ul>
+      <li>Add-button</li>
+    </ul>
+  </li>
+  </li>
+  <li>Company_New (Tab: Module)
+    <ul>
+      <li>All checkbox-fields</li>
+    </ul>
+  </li>
+  <li>Company_New (Tab: Module)
+    <ul>
+      <li>All checkbox-fields</li>
+    </ul>
+  </li>
+  <li>Snippet_PartyDealTypeConnect
+    <ul>
+      <li>Deal type-search field</li>
+      <li>Search-button</li>
+      <li>Deal type-column</li>
+      <li>Select-button</li>
+    </ul>
+  </li>
+  <li>AccountCurveGroup_NewEditFAM
+    <ul>
+      <li>Curve group-field</li>
+      <li>Save-button</li>
+    </ul>
+  </li>
+</ul>
+
+
 •	CompanyUserSetup (Company and user setup)<br>
 - Edit-button<br>
 •	CompanyUserSetup (Verification)<br>
