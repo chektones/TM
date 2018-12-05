@@ -256,6 +256,7 @@ Keep in mind that a change in a certain element does not immediately means it ne
       <li>Pay float type-field</li>
       <li>Rec float type-field</li>
       <li>Counterparty-field</li>
+      <li>Save and submit-button</li>
     </ul>
   </li>
     <li>CCIRS_New (Tabs: Pay/Receive legs)
@@ -271,7 +272,6 @@ Keep in mind that a change in a certain element does not immediately means it ne
       <li>Compounding-field</li>
       <li>Floating rate benchmark-field</li>
       <li>Date of first reset date-field</li>
-      <li>Save and submit-button</li>
     </ul>
   </li>
   <li>CCIRS_New (Tabs: Valuation)
