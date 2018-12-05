@@ -312,3 +312,63 @@ Keep in mind that a change in a certain element does not immediately means it ne
 </ul>
 
 
+
+<h3>Fixings workflow</h3>
+<ul>
+  <li>Deals_Overview (Tab: Interest rate fixing/Historical)
+    <ul>
+      <li>Company-search field</li>
+      <li>Other ref-search field</li>
+      <li>Search-button</li>
+      <li>Company-column</li>
+      <li>Actualize-button</li>
+    </ul>
+  </li>
+  <li>Deals_Overview (Tab: FX fixing/Historical)
+    <ul>
+      <li>Other ref-column</li>
+      <li>Other ref-search field</li>
+      <li>Search-button</li>
+      <li>Actualize-button</li>
+    </ul>
+  </li>
+  <li>Deals_Overview (Tab: FX fixing/Maintenance)</li>
+  <li>Deals_Overview (Tab: Interest rate fixing/Maintenance)</li>
+  <li>Deals_Overview (Tab: Interest rate fixing/Submitted)
+    <ul>
+      <li>Approve-button</li>
+      <li>Select all-button</li>
+    </ul>
+  </li>
+    <li>Deals_Overview (Tab: Interest rate fixing/Unverified)
+    <ul>
+      <li>Approve-button</li>
+      <li>Select all-button</li>
+    </ul>
+  </li>
+    <li>Deals_Overview (Tab: FX fixing/Submitted)
+    <ul>
+      <li>Approve-button</li>
+      <li>Select all-button</li>
+    </ul>
+  </li>
+    <li>Deals_Overview (Tab: FX fixing/Unverified)
+    <ul>
+      <li>Approve-button</li>
+      <li>Select all-button</li>
+    </ul>
+  </li>
+  <li>ActualizeCashflow_Rate
+    <ul>
+      <li>Interest rate fixing-field</li>
+      <li>Actualize cashflow-button</li>
+    </ul>
+  </li>
+    <li>ActualizeCashflow_NDFixingRate
+    <ul>
+      <li>FX fixing rate fixing-field</li>
+      <li>Actualize cashflow-button</li>
+    </ul>
+  </li>
+  </ul>
+    
